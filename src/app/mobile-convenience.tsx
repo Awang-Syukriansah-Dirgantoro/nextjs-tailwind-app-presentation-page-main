@@ -45,20 +45,23 @@ export function MobileConvenience() {
           className="col-span-1 w-1/2 mx-auto lg:w-10/12"
           alt="iphone-photo"
         /> */}
-        <img
-          // width={256}
-          // height={256}
+        <Image
+          width={256}
+          height={256}
           src="/image/Device_3-removebg-preview.png"
           className="object-contain h-3/4 col-span-1 w-1/2 mx-auto lg:w-10/12"
           alt="iphone-photo"
         />
         <div className="col-span-1 mx-auto max-w-lg px-4 lg:px-0">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography variant="h2" color="blue-gray" className="mb-4" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
             Pantau & Kendalikan Proyek Renovasi dengan Mudah!
           </Typography>
           <Typography
             variant="lead"
             className="mb-5 px-4 text-left  text-xl !text-gray-500 lg:px-0  "
+            placeholder=""
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
           >
             Dengan renovDulu, kamu bisa memantau progress renovasi secara real-time, memastikan setiap tahap berjalan sesuai rencana, serta menyimpan semua dokumen proyek dengan aman. Semua dalam satu aplikasi!
           </Typography>

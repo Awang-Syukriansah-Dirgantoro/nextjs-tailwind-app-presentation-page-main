@@ -50,12 +50,15 @@ export function WhyMust() {
         {/* <Typography color="blue-gray" className="mb-2 font-bold uppercase">
           RenovDulu
         </Typography> */}
-        <Typography variant="h1" color="blue-gray" className="mb-4">
+        <Typography variant="h1" color="blue-gray" className="mb-4" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
           Kenapa Harus renovDulu?
         </Typography>
         <Typography
           variant="lead"
           className="mx-auto w-full px-4 !text-gray-500 lg:w-11/12 lg:px-8 "
+          placeholder=""
+          onPointerEnterCapture={() => {}}
+          onPointerLeaveCapture={() => {}}
         >
           Bukan marketplace biasa! renovDulu memiliki tim sendiri yang siap menangani renovasi dari awal hingga selesai.
         </Typography>
