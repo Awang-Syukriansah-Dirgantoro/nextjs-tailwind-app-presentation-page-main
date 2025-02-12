@@ -19,7 +19,7 @@ export default function Campaign() {
       <Feature />
       {/* <WhyMust /> */}
       <MobileConvenience />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Faqs />
       <Footer />
     </>
