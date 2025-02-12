@@ -7,10 +7,13 @@ import {
   BanknotesIcon,
   CursorArrowRaysIcon,
   DevicePhoneMobileIcon,
+  DocumentCheckIcon,
+  EyeIcon,
   HeartIcon,
   LightBulbIcon,
   LockClosedIcon,
   PresentationChartLineIcon,
+  ShieldCheckIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/solid";
 
@@ -40,6 +43,30 @@ const FEATURES = [
     title: "Pantau Progres Renovasi",
     children:
       "Real-time dari aplikasi.",
+  },
+  {
+    icon: DocumentCheckIcon,
+    title: "Tenaga Ahli Berpengalaman",
+    children:
+      "Tim tukang & kontraktor yang sudah diverifikasi.",
+  },
+  {
+    icon: LockClosedIcon,
+    title: "Renovasi Terjamin",
+    children:
+      "Proses dilakukan dengan standar tinggi.",
+  },
+  {
+    icon: EyeIcon,
+    title: "Tanpa Ribet & Transparan",
+    children:
+      "Semua biaya & progres bisa dicek langsung di aplikasi.",
+  },
+  {
+    icon: ShieldCheckIcon,
+    title: "Jaminan Kualitas & Garansi",
+    children:
+      "Layanan terpercaya & berkualitas.",
   },
 ];
 

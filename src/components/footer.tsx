@@ -27,7 +27,7 @@ export function Footer() {
             <Typography color="white" className="mb-12 font-normal" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
               Memberikan Pengalaman Renovasi yang Berbeda!
             </Typography>
-            <ul className="flex flex-wrap items-center justify-center md:justify-start">
+            {/* <ul className="flex flex-wrap items-center justify-center md:justify-start">
               {LINKS.map((link, idx) => (
                 <li key={link}>
                   <Typography
@@ -43,7 +43,7 @@ export function Footer() {
                   </Typography>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </div>
           <div className="mt-8 w-full md:mt-0 md:w-auto">
             <Typography variant="h6" color="white" className="mb-3" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
@@ -93,7 +93,7 @@ export function Footer() {
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
           >
-            &copy; {CURRENT_YEAR} Made with{" "}
+            &copy; {CURRENT_YEAR} RenovDulu - Made with{" "}
             <a href="https://www.material-tailwind.com" target="_blank">
               Material Tailwind
             </a>{" "}
