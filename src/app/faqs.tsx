@@ -67,7 +67,7 @@ const FAQS = [
   },
   {
     title: "Apakah RenovDulu menyediakan jasa kontraktor?",
-    desc: "Ya, RenovDulu bekerja sama dengan kontraktor terpercaya yang akan menangani proyek renovasi Anda. RenovDulu bukan marketplace, tetapi menyediakan kontraktor dan ",
+    desc: "Ya, RenovDulu bekerja sama dengan kontraktor terpercaya yang akan menangani proyek renovasi Anda. RenovDulu bukan marketplace, tetapi menyediakan kontraktor dan tenaga lapangan sendiri, serta menemani proses renovasi dari awal hingga selesai.",
   },
   {
     title: "Bagaimana jika saya mengalami masalah atau ingin bertanya lebih lanjut?",
