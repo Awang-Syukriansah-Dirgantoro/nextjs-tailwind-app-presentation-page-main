@@ -84,7 +84,7 @@ export function Navbar() {
           onPointerLeaveCapture={() => {}}
         >
           {!isScrolling ? (
-            <Image width={60} height={60} src="/image/logo-renovdulu.png" className="h-[60px] w-[60px] object-contain" alt={"logo"} />
+            <Image width={60} height={60} src="/image/logo-circle.png" className="h-[60px] w-[60px] object-contain" alt={"logo"} />
           ) : (
             <>RenovDulu</>
           )}
@@ -98,7 +98,8 @@ export function Navbar() {
         <div className="hidden gap-2 lg:flex lg:items-center">
           <IconButton
             variant="text"
-            color={isScrolling ? "gray" : "white"}
+            // color={isScrolling ? "gray" : "white"}
+            className={`${isScrolling ? "text-[#4a3732]" : "text-white"}`}
             size="sm"
             placeholder=""
             onPointerEnterCapture={() => {}}
@@ -108,7 +109,8 @@ export function Navbar() {
           </IconButton>
           <IconButton
             variant="text"
-            color={isScrolling ? "gray" : "white"}
+            // color={isScrolling ? "gray" : "white"}
+            className={`${isScrolling ? "text-[#4a3732]" : "text-white"}`}
             size="sm"
             placeholder=""
             onPointerEnterCapture={() => {}}
@@ -118,7 +120,8 @@ export function Navbar() {
           </IconButton>
           <IconButton
             variant="text"
-            color={isScrolling ? "gray" : "white"}
+            // color={isScrolling ? "gray" : "white"}
+            className={`${isScrolling ? "text-[#4a3732]" : "text-white"}`}
             size="sm"
             placeholder=""
             onPointerEnterCapture={() => {}}
@@ -126,9 +129,9 @@ export function Navbar() {
           >
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
+          <a href="#" target="_blank">
             <Button
-              color={isScrolling ? "gray" : "white"}
+              className={`${isScrolling ? "bg-[#4a3732] text-white" : "bg-white text-[#4a3732]"}`}
               size="sm"
               placeholder=""
               onPointerEnterCapture={() => {}}
@@ -174,7 +177,7 @@ export function Navbar() {
             <IconButton variant="text" color="gray" size="sm" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
               <i className="fa-brands fa-instagram text-base" />
             </IconButton>
-            <a href="https://www.material-tailwind.com/blocks" target="_blank">
+            <a href="#" target="_blank">
               <Button color="gray" size="sm" className="ml-auto" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
                 Blocks
               </Button>

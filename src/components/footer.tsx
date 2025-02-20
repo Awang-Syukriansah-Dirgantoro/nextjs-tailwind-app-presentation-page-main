@@ -7,7 +7,7 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 export function Footer() {
   return (
-    <footer className="mt-10 bg-gray-900 px-8 pt-12">
+    <footer className="mt-10 bg-[#4a3732] px-8 pt-12">
       <div className="container mx-auto">
         <div className="flex flex-wrap justify-center gap-8 md:justify-between">
           <div className="text-center md:text-left">
@@ -52,7 +52,7 @@ export function Footer() {
             <div className="flex flex-col gap-2">
               <Button
                 color="white"
-                className="flex items-center justify-center"
+                className="flex items-center justify-center text-gray-900"
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}
@@ -68,7 +68,7 @@ export function Footer() {
               </Button>
               <Button
                 color="white"
-                className="flex items-center justify-center"
+                className="flex items-center justify-center text-gray-900"
                 placeholder=""
                 onPointerEnterCapture={() => {}}
                 onPointerLeaveCapture={() => {}}

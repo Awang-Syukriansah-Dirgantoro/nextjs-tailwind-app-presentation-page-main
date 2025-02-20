@@ -32,12 +32,12 @@ const FEATURES = [
     children:
       "Tanpa biaya tersembunyi.",
   },
-  {
-    icon: DevicePhoneMobileIcon,
-    title: "Konsultasi Online Cepat",
-    children:
-      "Langsung di aplikasi tanpa WhatsApp atau kontak langsung.",
-  },
+  // {
+  //   icon: DevicePhoneMobileIcon,
+  //   title: "Konsultasi Online Cepat",
+  //   children:
+  //     "Langsung di aplikasi tanpa WhatsApp atau kontak langsung.",
+  // },
   {
     icon: PresentationChartLineIcon,
     title: "Pantau Progres Renovasi",
@@ -72,7 +72,7 @@ const FEATURES = [
 
 export function Features() {
   return (
-    <section className="py-28 px-4">
+    <section className="py-10 px-4">
       <div className="container mx-auto mb-20 text-center">
         <Typography color="blue-gray" className="mb-2 font-bold uppercase" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
           RenovDulu
@@ -90,7 +90,7 @@ export function Features() {
           RenovDulu adalah solusi renovasi modern yang menyediakan tenaga ahli profesional langsung dari tim kami.
         </Typography>
       </div>
-      <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-4 gap-y-12 md:grid-cols-2">
+      <div className="container mx-auto grid max-w-6xl grid-cols-1 gap-2 md:grid-cols-3">
         {FEATURES.map((props, idx) => (
           <FeatureCard key={idx} {...props} />
         ))}

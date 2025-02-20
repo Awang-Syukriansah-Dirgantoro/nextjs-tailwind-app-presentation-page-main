@@ -17,7 +17,7 @@ export function TestimonialCard({
   return (
     <Card shadow={false} className="items-center text-center" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
       <CardBody placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
-        <Avatar src={img} className="mb-3" alt={client} size="lg" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}/>
+        <Avatar src={img} className="mb-3" alt={client} size="xxl" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}/>
         <Typography variant="h6" color="blue-gray" placeholder="" onPointerEnterCapture={() => {}} onPointerLeaveCapture={() => {}}>
           {client}
         </Typography>
